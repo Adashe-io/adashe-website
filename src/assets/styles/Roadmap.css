@@ -1,0 +1,36 @@
+span {
+    margin-top: 4px;
+}
+
+.writeStyle {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.writeStyleText {
+    font-size: 5rem;
+    font-weight: bold;
+    opacity: 0.4;
+    letter-spacing: 12px;
+    color: #203475;
+}
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .typing-animation {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .animate-fade-in {
+    animation: typing 2s ease-in-out;
+  }
+  
