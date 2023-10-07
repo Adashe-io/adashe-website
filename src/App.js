@@ -9,6 +9,10 @@ import AboutAdashe from "./components/AboutAdashe";
 import Documents from "./components/Documents";
 import FAQ from "./components/FAQ";
 import Team from "./components/Team";
+import AdvisorsComponent from "./components/Advisors";
+import LatestNews from "./components/LatestNews";
+import FeaturedOn from "./components/FeaturedOn";
+import Exchanges from "./components/Exchanges";
 
 function App() {
   return (
@@ -24,6 +28,10 @@ function App() {
       <Documents />
       <FAQ />
       <Team />
+      <AdvisorsComponent />
+      <LatestNews />
+      <FeaturedOn />
+      <Exchanges />
     </div>
   );
 }

@@ -3,14 +3,12 @@ import React from "react";
 const Documents = () => {
   return (
     <div className="container mx-auto mt-8 p-4">
-        <h2 className="text-xl text-[#203475] mb-6">Documents</h2>
-      <div className="grid grid-cols-3 md:gap-4">
-        {/* Column 1 */}
+      <h2 className="text-xl text-[#203475] mb-6 text-center">Documents</h2>
+
+      <div className="flex flex-wrap justify-center gap-4">
         <div className="flex">
           <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4">
             <div className="flex items-center">
-              {" "}
-              {/* Wrap icon and text in a flex container */}
               <span className="mr-2 mb-1">White Paper</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +16,7 @@ const Documents = () => {
                 height="19"
                 viewBox="0 0 19 19"
                 fill="none"
-                stroke="#ffffff" /* Change color to white */
+                stroke="#ffffff"
                 strokeWidth="1.58333"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -29,12 +27,9 @@ const Documents = () => {
           </button>
         </div>
 
-        {/* Column 2 */}
         <div className="flex">
-          <button className="bg-[#203475] hover:bg-blue-800 text-white px-4 py-1 mb-4">
+          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4">
             <div className="flex items-center">
-              {" "}
-              {/* Wrap icon and text in a flex container */}
               <span className="mr-2 mb-1">Privacy Policy</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +37,7 @@ const Documents = () => {
                 height="19"
                 viewBox="0 0 19 19"
                 fill="none"
-                stroke="#ffffff" /* Change color to white */
+                stroke="#ffffff"
                 strokeWidth="1.58333"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -53,12 +48,9 @@ const Documents = () => {
           </button>
         </div>
 
-        {/* Column 3 */}
         <div className="flex">
-          <button className="bg-[#203475] hover:bg-blue-800 text-white px-4 py-1 mb-4">
+          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4">
             <div className="flex items-center">
-              {" "}
-              {/* Wrap icon and text in a flex container */}
               <span className="mr-2 mb-1">Terms and Conditions</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +58,7 @@ const Documents = () => {
                 height="19"
                 viewBox="0 0 19 19"
                 fill="none"
-                stroke="#ffffff" /* Change color to white */
+                stroke="#ffffff"
                 strokeWidth="1.58333"
                 strokeLinecap="round"
                 strokeLinejoin="round"

@@ -17,7 +17,7 @@ const FAQItem = ({ question, answer }) => {
         <span
           className={`${
             isOpen ? "transform rotate-45" : ""
-          } transition-transform duration-300 inline-block`}
+          } transition-transform duration-300 pr-4 inline-block`}
         >
           {isOpen ? "−" : "+"}
         </span>
@@ -51,7 +51,7 @@ const FAQ = () => {
           answer="What benefits does holding ADSE give an investor?"
         />
       </div>
-      <button className="bg-[#203475] text-white rounded-md px-4 py-1 mb-4 mt-8 mx-auto block">
+      <button className="bg-[#203475] text-white rounded-md px-4 py-2 mb-4 mt-8 mx-auto block">
         <span>More FAQs</span>
       </button>
     </div>
