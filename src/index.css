@@ -7,3 +7,15 @@
   font-family: 'Helvetica Neue 55', sans-serif;
 }
 
+/* CSS */
+/* Light mode styles */
+body {
+  background-color: #ffffff;
+  color:gray;
+}
+
+/* Dark mode styles */
+.dark-mode body {
+  background-color: #333333;
+  color: #ffffff;
+}

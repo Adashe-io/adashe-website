@@ -1,15 +1,24 @@
 import React, { useState } from "react";
 import logo from "../assets/logo/Adashe.png";
+import { Sun, Moon } from "react-feather";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+   console.log("Dark Mode")
+  };
+
+
+
   return (
-    <nav className="py-2 md:py-4">
+    <nav className={`py-2 md:py-4 ${isDarkMode ? "dark-mode" : ""}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <img src={logo} alt="Adashe" className="w-39 h-16" />
@@ -51,6 +60,11 @@ const Navbar = () => {
           >
             FAQ
           </a>
+          <div className="pr-3">
+            <button onClick={toggleDarkMode}>
+              {isDarkMode ? <Sun /> : <Moon />}
+            </button>
+          </div>
           <button className="border border-[#203475] hover:bg-blue-800 text-[#203475] rounded-md px-4 py-1">
             Buy Token
           </button>
@@ -86,49 +100,48 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-  <div className="md:hidden py-2 border-b border-gray-300 pl-2">
-    <a
-      href="/"
-      className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300 hover:border-[#203475]"
-    >
-      ABOUT
-    </a>
-    <a
-      href="/"
-      className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
-    >
-      SERVICES
-    </a>
-    <a
-      href="/"
-      className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
-    >
-      ROADMAP
-    </a>
-    <a
-      href="/"
-      className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
-    >
-      WHITEPAPER
-    </a>
-    <a
-      href="/"
-      className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
-    >
-      TEAM
-    </a>
-    <a
-      href="/"
-      className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
-    >
-      FAQ
-    </a>
-    <button className="border border-[#203475] text-[#203475] hover:bg-blue-800 px-4 py-1 rounded-md">
-      Buy Token
-    </button>
-  </div>
-)}
-
+        <div className="md:hidden py-2 border-b border-gray-300 pl-2">
+          <a
+            href="/"
+            className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300 hover:border-[#203475]"
+          >
+            ABOUT
+          </a>
+          <a
+            href="/"
+            className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+          >
+            SERVICES
+          </a>
+          <a
+            href="/"
+            className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+          >
+            ROADMAP
+          </a>
+          <a
+            href="/"
+            className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+          >
+            WHITEPAPER
+          </a>
+          <a
+            href="/"
+            className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+          >
+            TEAM
+          </a>
+          <a
+            href="/"
+            className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+          >
+            FAQ
+          </a>
+          <button className="border border-[#203475] text-[#203475] hover:bg-blue-800 px-4 py-1 rounded-md">
+            Buy Token
+          </button>
+        </div>
+      )}
     </nav>
   );
 };
