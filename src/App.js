@@ -13,6 +13,7 @@ import AdvisorsComponent from "./components/Advisors";
 import LatestNews from "./components/LatestNews";
 import FeaturedOn from "./components/FeaturedOn";
 import Exchanges from "./components/Exchanges";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <LatestNews />
       <FeaturedOn />
       <Exchanges />
+      <Footer />
     </div>
   );
 }
