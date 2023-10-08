@@ -20,9 +20,9 @@ body {
   color: #ffffff;
 }
 
-/* Dark mode link styles */
+
 .dark-mode a {
-  color: #ffffff; /* Customize the color for dark mode links */
+  color: #ffffff; 
 }
 
 .dark-mode h2 {
