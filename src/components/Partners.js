@@ -88,7 +88,8 @@ const Partners = () => {
             </div>
           </div>
         </div>
-        <span className="block text-center text-white text-ssm font-semibold mt-4">More Partners</span>
+        <span className="block text-center text-white text-sm font-semibold mt-6 underline">More Partners</span>
+        <div className="mt-3">.</div>
       </div>
     </div>
   );

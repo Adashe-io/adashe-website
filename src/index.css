@@ -16,6 +16,40 @@ body {
 
 /* Dark mode styles */
 .dark-mode body {
-  background-color: #333333;
+  background-color: #121212;
   color: #ffffff;
+}
+
+/* Dark mode link styles */
+.dark-mode a {
+  color: #ffffff; /* Customize the color for dark mode links */
+}
+
+.dark-mode h2 {
+  color: #3A2075;
+}
+
+.dark-mode .button-firstTwo {
+  border-color: #3A2075;
+  color: #3A2075;
+}
+
+.dark-mode .team-container {
+  background-color: #2034750D;
+}
+
+.dark-mode .team-text {
+  color: rgb(147, 145, 145);
+}
+
+.dark-mode .advisors {
+  background-color: #121212;
+}
+
+.dark-mode .newHead {
+  color: rgb(168, 166, 166);
+}
+
+.dark-mode .faqContainer {
+  background-color: #2034750D;
 }

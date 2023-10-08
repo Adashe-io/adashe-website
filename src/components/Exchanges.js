@@ -17,7 +17,7 @@ const Exchanges = () => {
   return (
     <div className="bg-[#203475] container mx-auto py-2 rounded-lg">
       <div className="p-3 rounded-lg">
-        <h2 className="text-xl text-gray-200 mb-4 text-center">Exchanges</h2>
+        <h2 className="text-xl text-gray-200 mb-4 text-center newHead">Exchanges</h2>
         <div className="p-2 rounded-lg">
           <div className="flex justify-between">
             {exchangeLogos.map((logo, index) => (

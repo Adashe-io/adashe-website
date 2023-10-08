@@ -69,7 +69,7 @@ const AboutAdashe = () => {
             </p>
           </div>
           <div className="flex">
-            <button className="border border-[#203475] hover:bg-blue-800 text-[#203475] rounded-md px-4 py-1 mb-4">
+            <button className="border border-[#203475] hover:bg-blue-800 text-[#203475] rounded-md px-4 py-1 mb-4 button-firstTwo">
               <div className="flex items-center">
                 {" "}
                 {/* Wrap icon and text in a flex container */}

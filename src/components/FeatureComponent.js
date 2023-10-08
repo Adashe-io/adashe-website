@@ -8,7 +8,7 @@ const FeatureComponent = () => {
   return (
     <div className="container mx-auto py-8">
       <div className="p-5 rounded-lg">
-        <h2 className="text-xl text-[#203475] mb-4">Features</h2>
+        <h2 className="text-xl font-semibold text-[#203475] mb-4">Project Adashe</h2>
         <p className="text-lg font-light mb-6">
           Adashe is a seamless fusion of Tradefi, DeFi, and Data systems. It is
           the future of money, available across multiple blockchains. Developed

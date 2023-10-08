@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import logo from "../assets/logo/Adashe.png";
 import { Sun, Moon } from "react-feather";
+import "../index.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -12,21 +13,27 @@ const Navbar = () => {
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-   console.log("Dark Mode")
+    const rootElement = document.documentElement;
+    rootElement.classList.toggle("dark-mode", isDarkMode);
   };
 
 
 
   return (
-    <nav className={`py-2 md:py-4 ${isDarkMode ? "dark-mode" : ""}`}>
+    <nav className={`py-2 md:py-4 ${isDarkMode ? "" : "dark-mode"}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <img src={logo} alt="Adashe" className="w-39 h-16" />
         </div>
+        <div className="md:hidden pr-3">
+            <button onClick={toggleDarkMode}>
+              {isDarkMode ? <Sun /> : <Moon />}
+            </button>
+          </div>
         <div className="hidden md:flex space-x-6">
           <a
             href="/"
-            className="text-[#203475] hover:text-gray-300 transition duration-300"
+            className={`text-[#203475] hover:text-gray-300 transition duration-300`}
           >
             ABOUT
           </a>
@@ -65,7 +72,7 @@ const Navbar = () => {
               {isDarkMode ? <Sun /> : <Moon />}
             </button>
           </div>
-          <button className="border border-[#203475] hover:bg-blue-800 text-[#203475] rounded-md px-4 py-1">
+          <button className="border border-[#203475] hover:bg-blue-800 text-[#203475] rounded-md px-4 py-1 button-firstTwo">
             Buy Token
           </button>
         </div>

@@ -14,7 +14,7 @@ const Team = () => {
       <div className="flex flex-wrap">
         {/* Team Member 1 */}
         <div className="w-full md:w-1/2 p-4">
-          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center">
+          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center team-container">
             <div className="mb-4 md:mr-4 md:mb-0 md:flex-shrink-0">
               <img
                 src={Uzochukwu}
@@ -27,7 +27,7 @@ const Team = () => {
                 Othniel Mbamalu
               </p>
               <p className="text-gray-600">CEO</p>
-              <p className="text-black">
+              <p className="text-black team-text">
                 An Aerospace Inventor with multiple US patents and an innovator
                 in multiple spaces including Blockchain and Crypto
               </p>
@@ -40,7 +40,7 @@ const Team = () => {
 
         {/* Team Member 2 */}
         <div className="w-full md:w-1/2 p-4">
-          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center">
+          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center team-container">
             <div className="mb-4 md:mr-4 md:mb-0 md:flex-shrink-0">
               <img
                 src={Papadopoulos}
@@ -53,7 +53,7 @@ const Team = () => {
                 Dr. Periklis Papadopoulos
               </p>
               <p className="text-gray-600">CTO</p>
-              <p className="text-black">
+              <p className="text-black team-text">
                 Dr. Periklis Papadopoulos is a seasoned engineer and has worked
                 on projects spanning decades in Aerospace and other cutting-edge
                 systems.
@@ -67,7 +67,7 @@ const Team = () => {
 
         {/* Team Member 3 */}
         <div className="w-full md:w-1/2 p-4">
-          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center">
+          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center team-container">
             <div className="mb-4 md:mr-4 md:mb-0 md:flex-shrink-0">
               <img
                 src={Quivira}
@@ -80,7 +80,7 @@ const Team = () => {
                 Quivira. Ophir
               </p>
               <p className="text-gray-600">Chief Marketing Officer</p>
-              <p className="text-black">
+              <p className="text-black team-text">
                 One of Africa's top crypto influencers, Quivira's skills extend
                 beyond marketing into programming and business management.
               </p>
@@ -93,7 +93,7 @@ const Team = () => {
 
         {/* Team Member 4 */}
         <div className="w-full md:w-1/2 p-4">
-          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center">
+          <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center team-container">
             <div className="mb-4 md:mr-4 md:mb-0 md:flex-shrink-0">
               <img
                 src={Othniel}
@@ -106,7 +106,7 @@ const Team = () => {
                 Uzochukwu Mbamalu
               </p>
               <p className="text-gray-600">CFO</p>
-              <p className="text-black">
+              <p className="text-black team-text">
                 Founder of Palremit, Ted Talk alumni, and a fast-growing
                 personality in the fintech space with an in-depth understanding
                 of tech and finance.

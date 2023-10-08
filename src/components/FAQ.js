@@ -8,7 +8,7 @@ const FAQItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="bg-gray-200 rounded-md">
+    <div className="bg-gray-200 rounded-md faqContainer">
       <button
         className="flex justify-between items-center w-full py-3 focus:outline-none"
         onClick={toggleAccordion}

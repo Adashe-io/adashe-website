@@ -6,7 +6,7 @@ const TwoColumnComponent = () => {
     <div className="container flex flex-col md:flex-row items-center mx-auto">
       {/* Left Column */}
       <div className="md:w-1/2 p-6">
-        <h2 className="text-xl text-[#203475] mb-4">Data and Defi</h2>
+        <h2 className="text-xl font-semibold text-[#203475] mb-4">Data and Defi</h2>
         <p className="text-lg font-light">
           Project Adashe is building a system for data federation and
           virtualization, tied to a smart contract it can enable automatic
@@ -18,7 +18,7 @@ const TwoColumnComponent = () => {
           <button className="bg-[#203475] text-white px-4 py-2 rounded-md">
             Buy Token
           </button>
-          <button className="border border-[#203475] text-[#203475] px-4 py-2 rounded-md">
+          <button className="border border-[#203475] text-[#203475] px-4 py-2 rounded-md button-firstTwo">
             Whitepaper
           </button>
         </div>

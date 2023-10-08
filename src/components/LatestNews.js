@@ -38,7 +38,7 @@ const LatestNews = () => {
       <div className="bg-[#3A2075] container mx-auto rounded-lg">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 p-4">
-            <h2 className="text-xl font-semibold text-gray-100 mb-4 text-center">
+            <h2 className="text-xl font-semibold text-gray-100 mb-4 text-center newHead">
               Latest News
             </h2>
             <div className="rounded-lg p-4">

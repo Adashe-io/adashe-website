@@ -34,9 +34,9 @@ const AdvisorsComponent = () => {
           {advisors.map((advisor, index) => (
             <div
               key={index}
-              className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 px-4 mb-4"
+              className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 px-4 mb-4 advisors"
             >
-              <div className="bg-white p-4 rounded-lg">
+              <div className="bg-white p-4 rounded-lg advisors">
                 <img
                   src={advisor.imageSrc}
                   alt={`${advisor.name}'s`}
