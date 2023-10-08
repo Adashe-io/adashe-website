@@ -39,7 +39,7 @@ const Navbar = () => {
     <nav className={`py-2 md:py-4 ${isDarkMode ? "dark-mode" : ""}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <img src={logo} alt="Adashe" className="w-39 h-16" />
+          <img src={logo} alt="Adashe" className="w-30 h-15" />
         </div>
         <div className="md:hidden pr-3">
             <button onClick={toggleDarkMode}>
