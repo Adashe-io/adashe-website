@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logo/Adashe.png";
+import logo from "../assets/logo/adashe.png";
 import { Sun, Moon } from "react-feather";
 import "../index.css";
 
