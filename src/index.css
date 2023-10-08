@@ -79,3 +79,11 @@ body {
 .dark-mode .percentOff {
   color: #fff; 
 }
+
+.dark-mode .animationRoadmap {
+  color: rgb(164, 160, 160);
+}
+
+.dark-mode .copyrightText {
+  color: rgb(201, 196, 196);
+}

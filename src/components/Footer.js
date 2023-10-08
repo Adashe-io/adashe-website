@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <hr className="border-t border-gray-900 mt-4" />
 
-        <div className="text-center text-sm text-gray-700 mt-4">
+        <div className="text-center text-sm text-gray-700 mt-4 copyrightText">
           &copy; 2023 adashe.io. All Rights Reserved.
         </div>
       </div>
