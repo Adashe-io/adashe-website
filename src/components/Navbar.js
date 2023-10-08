@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../assets/logo/Adashe.png";
 import { Sun, Moon } from "react-feather";
 import "../index.css";
@@ -12,15 +12,31 @@ const Navbar = () => {
   };
 
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
+    const newDarkModeState = !isDarkMode;
+
+    setIsDarkMode(newDarkModeState);
+    localStorage.setItem("isDarkMode", newDarkModeState ? "true" : "false");
+
     const rootElement = document.documentElement;
-    rootElement.classList.toggle("dark-mode", isDarkMode);
+    rootElement.classList.toggle("dark-mode", newDarkModeState);
   };
+  useEffect(() => {
+    const storedIsDarkMode = localStorage.getItem("isDarkMode");
+
+    if (storedIsDarkMode === "true") {
+      setIsDarkMode(true);
+    } else {
+      setIsDarkMode(false);
+    }
+
+    const rootElement = document.documentElement;
+    rootElement.classList.toggle("dark-mode", storedIsDarkMode === "true");
+  }, []);
 
 
 
   return (
-    <nav className={`py-2 md:py-4 ${isDarkMode ? "" : "dark-mode"}`}>
+    <nav className={`py-2 md:py-4 ${isDarkMode ? "dark-mode" : ""}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <img src={logo} alt="Adashe" className="w-39 h-16" />
@@ -72,7 +88,7 @@ const Navbar = () => {
               {isDarkMode ? <Sun /> : <Moon />}
             </button>
           </div>
-          <button className="border border-[#203475] hover:bg-blue-800 text-[#203475] rounded-md px-4 py-1 button-firstTwo">
+          <button className="border border-[#203475] text-[#203475] rounded-md px-4 py-1 button-firstTwo">
             Buy Token
           </button>
         </div>
@@ -144,7 +160,7 @@ const Navbar = () => {
           >
             FAQ
           </a>
-          <button className="border border-[#203475] text-[#203475] hover:bg-blue-800 px-4 py-1 rounded-md">
+          <button className="border border-[#203475] text-[#203475] px-4 py-1 rounded-md">
             Buy Token
           </button>
         </div>

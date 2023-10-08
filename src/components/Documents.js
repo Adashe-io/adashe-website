@@ -7,7 +7,7 @@ const Documents = () => {
 
       <div className="flex flex-wrap justify-center gap-4">
         <div className="flex">
-          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4">
+          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4 documentButton">
             <div className="flex items-center">
               <span className="mr-2 mb-1">White Paper</span>
               <svg
@@ -28,7 +28,7 @@ const Documents = () => {
         </div>
 
         <div className="flex">
-          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4">
+          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4 documentButton">
             <div className="flex items-center">
               <span className="mr-2 mb-1">Privacy Policy</span>
               <svg
@@ -49,7 +49,7 @@ const Documents = () => {
         </div>
 
         <div className="flex">
-          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4">
+          <button className="bg-[#203475] hover:bg-blue-800 text-white px-2 py-1 mb-4 documentButton">
             <div className="flex items-center">
               <span className="mr-2 mb-1">Terms and Conditions</span>
               <svg

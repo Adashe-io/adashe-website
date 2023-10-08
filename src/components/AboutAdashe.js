@@ -21,7 +21,7 @@ const AboutAdashe = () => {
         <div className="sm:w-1/2 pr-4">
           <div className="mb-4">
             <p className="text-lg font-light">
-              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4">
+              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4 spanAdvisor">
                 Banking
               </span>
               Bank your Stable Coin or ADSE and access it via our debit card,
@@ -31,7 +31,7 @@ const AboutAdashe = () => {
 
           <div className="mb-4">
             <p className="text-lg font-light">
-              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4">
+              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4 spanAdvisor">
                 Staking
               </span>
               Stake the LP tokens from our DeFi or other AMM platforms and earn
@@ -41,7 +41,7 @@ const AboutAdashe = () => {
 
           <div className="mb-4">
             <p className="text-lg font-light">
-              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4">
+              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4 spanAdvisor">
                 Lending
               </span>
               Lend your Adashe tokens to any one of our selected third party
@@ -51,7 +51,7 @@ const AboutAdashe = () => {
 
           <div className="mb-4">
             <p className="text-lg font-light">
-              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4">
+              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4 spanAdvisor">
                 Farming
               </span>
               Farm your ADSE with pairs of other crypto currencies to help
@@ -61,7 +61,7 @@ const AboutAdashe = () => {
 
           <div className="mb-4">
             <p className="text-lg font-light">
-              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4">
+              <span className="text-lg font-semibold mb-2 text-[#203475] mr-4 spanAdvisor">
                 Donate
               </span>
               Donate anonymously to featured projects, charities, causes and
@@ -69,7 +69,7 @@ const AboutAdashe = () => {
             </p>
           </div>
           <div className="flex">
-            <button className="border border-[#203475] hover:bg-blue-800 text-[#203475] rounded-md px-4 py-1 mb-4 button-firstTwo">
+            <button className="border border-[#203475] text-[#203475] rounded-md px-4 py-1 mb-4 button-firstTwo">
               <div className="flex items-center">
                 {" "}
                 {/* Wrap icon and text in a flex container */}
@@ -94,7 +94,7 @@ const AboutAdashe = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 bg-[#203475] p-4 rounded-lg flex">
+        <div className="w-full md:w-1/2 bg-[#203475] p-4 rounded-lg flex allocationTable">
           <div className="w-full md:w-1/2 pr-4">
             <p className="text-white mb-6">Team Allocation</p>
             <p className="text-white mb-6">Marketing</p>

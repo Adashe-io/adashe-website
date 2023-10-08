@@ -13,23 +13,17 @@ const Roadmap = () => {
           (entries) => {
             entries.forEach((entry) => {
               if (entry.isIntersecting) {
-                // When the roadmap section enters the viewport, add your animation class here
                 roadmapElement.classList.add("animate-fade-in");
               } else {
-                // Remove the animation class when it exits the viewport
                 roadmapElement.classList.remove("animate-fade-in");
               }
             });
           },
           {
-            threshold: 0.2, // Adjust this threshold as needed
+            threshold: 0.2, 
           }
         );
-      
-        // Start observing the roadmap section
         observer.observe(roadmapElement);
-      
-        // Clean up the observer when the component unmounts
         return () => {
           observer.unobserve(roadmapElement);
         };

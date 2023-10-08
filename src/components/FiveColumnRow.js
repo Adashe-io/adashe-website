@@ -12,7 +12,7 @@ const FiveColumnRow = () => {
           <p className='text-xxl font-semibold text-[#3A2075]'>Smart Contracts</p>
         </div>
         <div className="w-1/2 md:w-1/5 p-4 md:p-2 text-center">
-          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center">
+          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center borderColor">
             <img
               src={farmingIcon}
               alt="Farming"
@@ -22,7 +22,7 @@ const FiveColumnRow = () => {
           <p className="text-center mt-2">Farming</p>
         </div>
         <div className="w-1/2 md:w-1/5 p-4 md:p-2 text-center">
-          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center">
+          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center borderColor">
             <img
               src={vestingIcon}
               alt="Vesting"
@@ -32,7 +32,7 @@ const FiveColumnRow = () => {
           <p className="text-center mt-2">Vesting</p>
         </div>
         <div className="w-1/2 md:w-1/5 p-4 md:p-2 text-center">
-          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center">
+          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center borderColor">
             <img
               src={tokenIcon}
               alt="Token"
@@ -42,7 +42,7 @@ const FiveColumnRow = () => {
           <p className="text-center mt-2">Token</p>
         </div>
         <div className="w-1/2 md:w-1/5 p-4 md:p-2 text-center">
-          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center">
+          <div className="bg-[#3A2075] rounded-full w-16 h-16 mx-auto mb-2 flex justify-center items-center borderColor">
             <img
               src={saleIcon}
               alt="Sale"

@@ -18,7 +18,7 @@ const FeatureComponent = () => {
           cryptocurrency...view more
         </p>
       </div>
-      <div className="bg-[#203475] p-4 rounded-lg mt-6">
+      <div className="bg-[#203475] p-4 rounded-lg mt-6 featureComponentContainer">
         <div className="flex flex-wrap justify-center">
           {/* Data */}
           <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4">

@@ -53,3 +53,29 @@ body {
 .dark-mode .faqContainer {
   background-color: #2034750D;
 }
+
+.dark-mode .borderColor {
+  border: 2px solid #fff;
+}
+
+.dark-mode .allocationTable {
+  background-color: #3A2075;
+}
+
+.dark-mode .spanAdvisor {
+  color: #3A2075;
+}
+
+.dark-mode .documentButton {
+  background-color: #121212;
+  border: 1px solid #3A2075;
+  border-radius: 5px;
+}
+
+.dark-mode .featureComponentContainer {
+  background-color: #3A2075;
+}
+
+.dark-mode .percentOff {
+  color: #fff; 
+}
