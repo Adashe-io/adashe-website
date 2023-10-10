@@ -26,8 +26,8 @@ const FeatureComponent = () => {
           </span>
         </p>
       </div>
-      <div className="bg-[#203475] p-4 rounded-lg mt-6 featureComponentContainer">
-        <div className="flex flex-wrap justify-center">
+      <div className="p-4 rounded-lg mt-6 featureComponentContainer">
+        <div className="md:flex md:flex-row md:justify-center grid grid-cols-2 gap-2 bg-[#203475] py-2 px-2">
           {/* Data */}
           <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4">
             <img src={databaseLogo} alt="databaseLogo" className="pr-2" />

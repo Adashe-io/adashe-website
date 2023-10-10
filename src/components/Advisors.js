@@ -30,7 +30,7 @@ const AdvisorsComponent = () => {
     <div className="container mx-auto py-8">
       <div className="p-5 rounded-lg text-center">
         <h2 className="text-xl text-[#203475] mb-4">Advisors</h2>
-        <div className="flex flex-wrap -mx-4">
+        <div className="flex flex-wrap mx-4">
           {advisors.map((advisor, index) => (
             <div
               key={index}

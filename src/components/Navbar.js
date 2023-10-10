@@ -37,7 +37,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className={`py-2 md:py-4 ${isDarkMode ? "dark-mode" : ""}`}>
+    <nav className={`py-2 md:py-2 ${isDarkMode ? "dark-mode" : ""}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <img src={isDarkMode ? darkModeLogo : logo} alt="Adashe"  className="mx-auto w-25 h-20 md:w-25 md:h-24" />
