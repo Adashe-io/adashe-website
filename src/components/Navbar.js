@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logo/adashe.png";
+import logo from "../assets/logo/adashe-dark.png";
+import darkModeLogo from "../assets/logo/adashe-light.png";
 import { Sun, Moon } from "react-feather";
 import "../index.css";
 
@@ -39,7 +40,7 @@ const Navbar = () => {
     <nav className={`py-2 md:py-4 ${isDarkMode ? "dark-mode" : ""}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <img src={logo} alt="Adashe" className="w-30 h-15" />
+          <img src={isDarkMode ? darkModeLogo : logo} alt="Adashe"  className="mx-auto w-25 h-20 md:w-25 md:h-24" />
         </div>
         <div className="md:hidden pr-3">
             <button onClick={toggleDarkMode}>

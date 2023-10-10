@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import moneyExchange from "../assets/icons/money-exchange.png";
-import moneyLogo from "../assets/icons/money.png";
-import investmentLogo from "../assets/icons/investment.png";
-import databaseLogo from "../assets/icons/database-usage.png";
+import moneyExchange from "../assets/icons/money-exchange.svg";
+import moneyLogo from "../assets/icons/money.svg";
+import investmentLogo from "../assets/icons/investment.svg";
+import databaseLogo from "../assets/icons/database-usage.svg";
 
 const FeatureComponent = () => {
   const initialText = `Adashe is a seamless fusion of Tradefi, DeFi, and Data systems, It is the future of Money, It is available across multiple Blockchains. Developed by crypto pioneers, aerospace inventors, engineers, data scientist and tech leaders, Adashe establishes a standardized industry framework for trade, finance, data and for adoption of blockchain and crypto.Adabase is a federated data solution which will allow for robust and real time interactions of and with data from an endless stream of sources. Supply chains, performance data tracking and automated execution of commands specific to user and situation are all uses, giving users a detailed snapshot and the ability to respond faster and more precisely. Our crypto currency lubricates the ecosystem and serves as payment for interactions at predetermined intervals. Enterprise and non-enterprise users can interact with our Eco-system via our app and web-based solutions across different platforms for free. Adabase while built to work with Adashe can via smart contracts execute payments for other chains with associated fees, furthermore Project Adashe plans to eventually fork the Polygon chain for it custom blockchain protocol.`;
