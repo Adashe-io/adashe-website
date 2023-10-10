@@ -84,6 +84,10 @@ body {
   color: rgb(164, 160, 160);
 }
 
+.dark-mode .footerText {
+  color: rgb(181, 179, 179);
+}
+
 .dark-mode .copyrightText {
   color: rgb(201, 196, 196);
 }

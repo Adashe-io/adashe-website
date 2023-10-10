@@ -1,12 +1,12 @@
 import React from "react";
-import telegramIcon from "../assets/icons/telegram.png";
-import youtubeIcon from "../assets/icons/youtube-fill.png";
-import facebookIcon from "../assets/icons/facebook.png";
+import telegramIcon from "../assets/icons/icons8-telegram-app-48.png";
+import youtubeIcon from "../assets/icons/icons8-youtube-48.png";
+import facebookIcon from "../assets/icons/icons8-facebook-48.png";
 
 const Subscribe = () => {
   return (
     <div className="w-full p-6">
-      <h2 className="text-2xl text-[#3A2075] font-semibold mb-4">Subscribe</h2>
+      <h2 className="text-2xl text-[#3A2075] font-semibold mb-4 footerText">Subscribe</h2>
       <form className="mb-4">
         <div className="flex items-center rounded-lg">
           <input

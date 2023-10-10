@@ -22,7 +22,7 @@ const ContactUs = () => {
 
   return (
     <div className="w-full p-6">
-      <h2 className="text-2xl text-[#3A2075] font-semibold mb-4">Contact Us</h2>
+      <h2 className="text-2xl text-[#3A2075] font-semibold mb-4 footerText">Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <div class="mb-4">
           <input
