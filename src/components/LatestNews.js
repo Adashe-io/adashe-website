@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import featuredImage from "../assets/images/Rectangle-41.png";
+import back from "../assets/icons/icon-back.png";
+import next from "../assets/icons/icon-next.png";
 
 const LatestNews = () => {
   const newsData = [
@@ -35,7 +37,7 @@ const LatestNews = () => {
 
   return (
     <div className="py-8">
-      <div className="bg-[#3A2075] container mx-auto rounded-lg">
+      <div className="container mx-auto rounded-lg custom-gradient">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 p-4">
             <h2 className="text-xl font-semibold text-gray-100 mb-4 text-center newHead">
@@ -54,18 +56,19 @@ const LatestNews = () => {
             </div>
             <div className="flex mt-4">
               <button
-                className="view-details-button border border-gray-200 bg-[#3A2075] text-white px-4 py-2 rounded hover:bg-[#1D1247] ml-4 mr-4"
+                className="view-details-button bg-[#3A2075] text-white px-2 py-2 rounded ml-4"
                 onClick={handleBack}
                 disabled={currentArticleIndex === 0}
               >
-                Back
+                <img src={back} alt="Back Icon" />
               </button>
+
               <button
-                className="view-details-button border border-gray-200 bg-[#3A2075] text-white px-4 py-2 rounded hover:bg-[#1D1247]"
+                className="view-details-button bg-[#3A2075] text-white px-2 py-2 rounded"
                 onClick={handleNext}
                 disabled={currentArticleIndex === newsData.length - 1}
               >
-                Next
+                <img src={next} alt="Next Icon" />
               </button>
             </div>
           </div>

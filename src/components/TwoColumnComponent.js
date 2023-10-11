@@ -32,7 +32,7 @@ const TwoColumnComponent = () => {
         <img
           src={Rectangle}
           alt="rectangle"
-          className="w-full h-auto md:h-64 rounded-md"
+          className="w-2/3 h-auto md:h-64 rounded-md mx-auto"
         />
       </div>
     </div>

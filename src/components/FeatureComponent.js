@@ -26,28 +26,28 @@ const FeatureComponent = () => {
           </span>
         </p>
       </div>
-      <div className="p-4 rounded-lg mt-6">
-        <div className="md:flex md:flex-row md:justify-center grid grid-cols-2 gap-2 bg-[#203475] py-2 px-2 featureComponentContainer">
+      <div className="p-4 rounded-lg mt-">
+        <div className="md:flex md:flex-row md:justify-center grid grid-cols-2 gap-2 py-2 px-2 custom-gradient featureComponentContainer">
           {/* Data */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4">
+          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={databaseLogo} alt="databaseLogo" className="pr-2" />
             <p className="text-white">Executable Data</p>
           </div>
 
           {/* DEFI */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4">
+          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={investmentLogo} alt="investmentLogo" className="pr-2" />
             <p className="text-white">Decentralized Finance</p>
           </div>
 
           {/* Currency */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4">
+          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={moneyLogo} alt="moneyLogo" className="pr-2" />
             <p className="text-white">Currency</p>
           </div>
 
           {/* Trade Finance */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4">
+          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={moneyExchange} alt="moneyExchange" className="pr-2" />
             <p className="text-white">Trade Finance</p>
           </div>

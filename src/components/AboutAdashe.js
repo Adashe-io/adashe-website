@@ -94,7 +94,7 @@ const AboutAdashe = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 bg-[#203475] p-4 rounded-lg flex allocationTable">
+        <div className="w-full md:w-1/2  p-4 rounded-lg flex custom-gradient allocationTable">
           <div className="w-full md:w-1/2 pr-4">
             <p className="text-white mb-6">Team Allocation</p>
             <p className="text-white mb-6">Marketing</p>

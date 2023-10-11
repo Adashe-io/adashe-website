@@ -4,9 +4,9 @@ import "../assets/styles/Partners.css";
 
 const Partners = () => {
   return (
-    <div className="bg-[#3A2075]">
+    <div className="bg-[#3A2075] custom-gradient">
       <div className="container mx-auto">
-        <h2 className="text-xl text-gray-100 mb-16 mt-8 text-center">
+        <h2 className="text-xl text-gray-100 mb-16 mt-8 text-center newHead">
           Core Partners
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-2 py-2 px-2">
@@ -100,6 +100,7 @@ const Partners = () => {
             </div>
           </div>
         </div>
+        <p className="underline text-center text-gray-100 mt-4">More Partners</p>
         <div className="mt-3">.</div>
       </div>
     </div>

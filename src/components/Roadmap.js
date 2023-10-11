@@ -50,8 +50,8 @@ const Roadmap = () => {
         <div className="w-1 h-16 bg-[#3A2075] bg-opacity-50"></div>
 
         <div className="flex items-center">
-          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-80 rounded-full">
-            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-80 animationRoadmap">
+          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-50 rounded-full">
+            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-50 animationRoadmap">
               Smart Contract
             </span>
           </div>
@@ -76,34 +76,34 @@ const Roadmap = () => {
         <div className="w-1 h-16 bg-[#3A2075]"></div>
 
         <div className="flex items-center">
-          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-90 rounded-full">
-            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-90 animationRoadmap">
+          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-50 rounded-full">
+            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-50 animationRoadmap">
               DeFi Apps Launch
             </span>
           </div>
         </div>
-        <div className="w-1 h-16 bg-[#3A2075] bg-opacity-90"></div>
+        <div className="w-1 h-16 bg-[#3A2075] bg-opacity-50"></div>
 
         <div className="flex items-center">
-          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-80 rounded-full">
-            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-80 animationRoadmap">
+          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-50 rounded-full">
+            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-50 animationRoadmap">
               TradeFi and AI Trader Integration
             </span>
           </div>
         </div>
-        <div className="w-1 h-16 bg-[#3A2075] bg-opacity-80"></div>
+        <div className="w-1 h-16 bg-[#3A2075] bg-opacity-50"></div>
 
         <div className="flex items-center">
-          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-70 rounded-full">
-            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-70 animationRoadmap">
+          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-50 rounded-full">
+            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-50 animationRoadmap">
               Custom Blockchain
             </span>
           </div>
         </div>
-        <div className="w-1 h-16 bg-[#3A2075] bg-opacity-70"></div>
+        <div className="w-1 h-16 bg-[#3A2075] bg-opacity-50"></div>
         <div className="flex items-center">
-          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-70 rounded-full">
-            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-70 animationRoadmap">
+          <div className="w-8 h-8 bg-[#3A2075] bg-opacity-50 rounded-full">
+            <span className="flex ml-12 w-40 text-[#3A2075] text-opacity-50 animationRoadmap">
               ATTOS Fork and App Full Deployment
             </span>
           </div>

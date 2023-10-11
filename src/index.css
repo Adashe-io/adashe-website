@@ -13,6 +13,21 @@ body {
   background-color: #ffffff;
   color:gray;
 }
+.projectAdashe {
+  margin: 0 45px;
+}
+.custom-gradient {
+  background: linear-gradient(90deg, #41277e, #682075, #3A2075);
+}
+
+.button-firstTwo {
+  border: 1px solid #203475; 
+  border-bottom-width: 3px; 
+  border-radius: 8px;
+  color: #203475;
+  cursor: pointer;
+  transition: border-bottom-width 0.3s;
+}
 
 /* Dark mode styles */
 .dark-mode body {

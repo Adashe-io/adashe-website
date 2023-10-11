@@ -23,7 +23,7 @@ const FAQItem = ({ question, answer }) => {
         </span>
       </button>
       {isOpen && (
-        <div className="p-4 bg-[#3A2575] mb-2 mt-2">
+        <div className="p-4 mb-2 mt-2 custom-gradient">
           <p className="text-ssm font-light text-white">{answer}</p>
         </div>
       )}
@@ -51,7 +51,7 @@ const FAQ = () => {
           answer="What benefits does holding ADSE give an investor?"
         />
       </div>
-      <button className="bg-[#203475] text-white rounded-md px-4 py-2 mb-4 mt-8 mx-auto block">
+      <button className="text-white rounded-md px-4 py-2 mb-4 mt-8 mx-auto block custom-gradient">
         <span>More FAQs</span>
       </button>
     </div>

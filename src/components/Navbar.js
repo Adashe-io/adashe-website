@@ -109,7 +109,7 @@ const Navbar = () => {
               {isDarkMode ? <Sun /> : <Moon />}
             </button>
           </div>
-          <button className="border border-[#203475] text-[#203475] rounded-md px-4 py-1 button-firstTwo">
+          <button className="text-[#203475] rounded-md px-4 py-1 button-firstTwo">
             Buy Token
           </button>
         </div>
