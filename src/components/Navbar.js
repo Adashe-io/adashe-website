@@ -8,6 +8,21 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(true);
 
+  const scrollToSection = (id) => {
+    const target = document.getElementById(id);
+    if(target) {
+      window.scrollTo({
+        behavior: "smooth",
+        top: target.offsetTop,
+      });
+    }
+  }
+
+  const handleNavigationClick = (e, id) => {
+    e.preventDefault();
+    scrollToSection(id);
+  }
+
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
@@ -49,38 +64,43 @@ const Navbar = () => {
           </div>
         <div className="hidden md:flex space-x-6">
           <a
-            href="/"
+            href="#ABOUT"
             className={`text-[#203475] hover:text-gray-300 transition duration-300`}
+            onClick={(e) => handleNavigationClick(e, 'ABOUT')}
           >
             ABOUT
           </a>
           <a
-            href="/"
+            href="#SERVICE"
             className="text-[#203475] hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'SERVICE')}
           >
             SERVICES
           </a>
           <a
-            href="/"
+            href="#ROADMAP"
             className="text-[#203475] hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'ROADMAP')}
           >
             ROADMAP
           </a>
           <a
-            href="/"
+            href="https://adashe.gitbook.io/adashe-gitbook/"
             className="text-[#203475] hover:text-gray-300 transition duration-300"
           >
             WHITEPAPER
           </a>
           <a
-            href="/"
+            href="#TEAM"
             className="text-[#203475] hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'TEAM')}
           >
             TEAM
           </a>
           <a
-            href="/"
+            href="#FAQ"
             className="text-[#203475] hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'FAQ')}
           >
             FAQ
           </a>
@@ -126,38 +146,43 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden py-2 border-b border-gray-300 pl-2">
           <a
-            href="/"
+            href="#ABOUT"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300 hover:border-[#203475]"
+            onClick={(e) => handleNavigationClick(e, 'ABOUT')}
           >
             ABOUT
           </a>
           <a
-            href="/"
+            href="#SERVICE"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'SERVICE')}
           >
             SERVICES
           </a>
           <a
-            href="/"
+            href="#ROADMAP"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'ROADMAP')}
           >
             ROADMAP
           </a>
           <a
-            href="/"
+            href="https://adashe.gitbook.io/adashe-gitbook/"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
           >
             WHITEPAPER
           </a>
           <a
-            href="/"
+            href="#TEAM"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'TEAM')}
           >
             TEAM
           </a>
           <a
-            href="/"
+            href="#FAQ"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
+            onClick={(e) => handleNavigationClick(e, 'FAQ')}
           >
             FAQ
           </a>

@@ -32,7 +32,7 @@ const Roadmap = () => {
 
   return (
     <>
-    <div className="flex">
+    <div className="flex" id="ROADMAP">
     <div className="w-1/4 p-4 flex justify-center items-center writeStyle">
   
     <p className="writeStyleText animationRoadmap">RoadMap</p>

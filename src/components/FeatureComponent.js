@@ -14,7 +14,7 @@ const FeatureComponent = () => {
   };
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-8" id="ABOUT">
       <div className="p-5 rounded-lg">
         <h2 className="text-xl font-semibold text-[#203475] mb-4">
           Project Adashe

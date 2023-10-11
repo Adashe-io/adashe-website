@@ -33,7 +33,7 @@ const FAQItem = ({ question, answer }) => {
 
 const FAQ = () => {
   return (
-    <div className="container mx-auto py-8 px-4">
+    <div className="container mx-auto py-8 px-4" id="FAQ">
       <h2 className="text-3xl text-[#3A2075] font-semibold mb-6 text-center">
         Frequently Asked Questions
       </h2>

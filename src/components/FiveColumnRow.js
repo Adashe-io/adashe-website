@@ -6,7 +6,7 @@ import saleIcon from "../assets/icons/sale.svg";
 
 const FiveColumnRow = () => {
   return (
-    <div className="container mx-auto mt-16">
+    <div className="container mx-auto mt-16" id='SERVICE'>
       <div className="flex flex-wrap justify-center md:justify-between">
         <div className="w-full md:w-1/5 p-4 md:p-2 text-center">
           <p className='text-xxl font-semibold text-[#3A2075]'>Smart Contracts</p>

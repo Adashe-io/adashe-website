@@ -7,7 +7,7 @@ import socialIcon from "../assets/icons/linkedin.svg";
 
 const Team = () => {
   return (
-    <div className="container mx-auto mt-8 p-4">
+    <div className="container mx-auto mt-8 p-4" id="TEAM">
       <h2 className="text-base font-semibold text-[#3A2075] mb-4 text-center">
         The Team
       </h2>
