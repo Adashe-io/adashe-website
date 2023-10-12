@@ -30,11 +30,11 @@ const AdvisorsComponent = () => {
     <div className="container mx-auto py-8">
       <div className="p-5 rounded-lg text-center">
         <h2 className="text-xl text-[#203475] mb-4">Advisors</h2>
-        <div className="flex flex-wrap mx-4">
+        <div className="grid grid-cols-4 md:grid-cols-4">
           {advisors.map((advisor, index) => (
             <div
               key={index}
-              className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 px-4 mb-4 advisors"
+              className="w-full advisors"
             >
               <div className="bg-white p-4 rounded-lg advisors">
                 <img
@@ -42,10 +42,10 @@ const AdvisorsComponent = () => {
                   alt={`${advisor.name}'s`}
                   className="w-23 h-23 mx-auto rounded-full"
                 />
-                <div className="flex justify-center items-center">
-                  <h3 className="text-lg font-semibold mt-2 pr-1">
+                <div className="block justify-center items-center">
+                  <p className="text-xms md:text-lg mt-2">
                     {advisor.name}
-                  </h3>
+                  </p>
                   <a
                     href={advisor.linkedinLink}
                     target="_blank"
@@ -55,7 +55,7 @@ const AdvisorsComponent = () => {
                     <img
                       src={logo}
                       alt="linkedin"
-                      className="w-5 h-5 mx-auto"
+                      className="w-3 h-3 md:w-5 md:h-5 mx-auto"
                     />
                   </a>
                 </div>

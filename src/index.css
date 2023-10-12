@@ -14,10 +14,13 @@ body {
   color:gray;
 }
 .projectAdashe {
-  margin: 0 45px;
+  text-align: center; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 .custom-gradient {
-  background: linear-gradient(90deg, #41277e, #682075, #3A2075);
+  background: linear-gradient(15deg, #682075, #3A2075, #3A2075);
 }
 
 .button-firstTwo {
@@ -28,6 +31,11 @@ body {
   cursor: pointer;
   transition: border-bottom-width 0.3s;
 }
+
+.documentButton {
+  background: linear-gradient(15deg, #682075, #3A2075, #3A2075);
+}
+
 
 /* Dark mode styles */
 .dark-mode body {
@@ -66,7 +74,7 @@ body {
 }
 
 .dark-mode .faqContainer {
-  background-color: #2034750D;
+  background-color: #DDDFE5;
 }
 
 .dark-mode .borderColor {
@@ -93,6 +101,11 @@ body {
 
 .dark-mode .percentOff {
   color: #fff; 
+}
+
+.dark-mode .verifiedBorder {
+  border-color: rgb(156, 155, 155);
+  color: rgb(205, 202, 202);
 }
 
 .dark-mode .animationRoadmap {

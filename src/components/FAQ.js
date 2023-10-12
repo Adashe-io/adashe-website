@@ -8,23 +8,24 @@ const FAQItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="bg-gray-200 rounded-md faqContainer">
+    <div className="bg-[#DDDFE5] rounded-md faqContainer">
       <button
         className="flex justify-between items-center w-full py-3 focus:outline-none"
         onClick={toggleAccordion}
       >
-        <p className="text-lg font-light ml-2 mb-2">{question}</p>
+        <p className="text-lg text-black ml-2 mb-2">{question}</p>
         <span
           className={`${
-            isOpen ? "transform rotate-45" : ""
-          } transition-transform duration-300 pr-4 inline-block`}
+            isOpen ? "transform rotate-45 mb-2" : ""
+          } transition-transform duration-300 flex mr-2`}
         >
           {isOpen ? "−" : "+"}
         </span>
       </button>
       {isOpen && (
-        <div className="p-4 mb-2 mt-2 custom-gradient">
-          <p className="text-ssm font-light text-white">{answer}</p>
+        <div className="p-4 mb-2 mt-2 bg-[#3A20756B]">
+           <p className="text-lg text-gray-800 font-bold">{question}</p>
+          <p className="text-ssm text-gray-700 mt-2">{answer}</p>
         </div>
       )}
     </div>

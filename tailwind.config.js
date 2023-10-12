@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
+        'xms': '0.69rem',
         'xs': '0.75rem',   // Custom font size for 'xs'
         'sm': '0.875rem',  // Custom font size for 'sm'
         'ssm': '0.93rem',

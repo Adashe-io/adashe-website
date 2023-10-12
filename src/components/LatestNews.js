@@ -50,13 +50,13 @@ const LatestNews = () => {
               <p className="text-lg mb-2 text-gray-200">
                 {currentArticle.content}
               </p>
-              <button className="bg-[#3A2075] border border-gray-200 text-gray-200 px-4 py-2 rounded hover:bg-[#1D1247] mt-4">
+              <button className="border border-b-4 border-gray-200 text-gray-200 px-4 py-2 rounded hover:bg-[#1D1247] mt-4">
                 View Details
               </button>
             </div>
             <div className="flex mt-4">
               <button
-                className="view-details-button bg-[#3A2075] text-white px-2 py-2 rounded ml-4"
+                className="text-white px-2 py-2 rounded ml-4"
                 onClick={handleBack}
                 disabled={currentArticleIndex === 0}
               >
@@ -64,7 +64,7 @@ const LatestNews = () => {
               </button>
 
               <button
-                className="view-details-button bg-[#3A2075] text-white px-2 py-2 rounded"
+                className="text-white px-2 py-2 rounded"
                 onClick={handleNext}
                 disabled={currentArticleIndex === newsData.length - 1}
               >

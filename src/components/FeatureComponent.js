@@ -31,25 +31,25 @@ const FeatureComponent = () => {
           {/* Data */}
           <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={databaseLogo} alt="databaseLogo" className="pr-2" />
-            <p className="text-white">Executable Data</p>
+            <p className="text-white text-xms md:text-sm">Executable Data</p>
           </div>
 
           {/* DEFI */}
           <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={investmentLogo} alt="investmentLogo" className="pr-2" />
-            <p className="text-white">Decentralized Finance</p>
+            <p className="text-white text-xms md:text-sm">Decentralized Finance</p>
           </div>
 
           {/* Currency */}
           <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={moneyLogo} alt="moneyLogo" className="pr-2" />
-            <p className="text-white">Currency</p>
+            <p className="text-white text-xms md:text-sm">Currency</p>
           </div>
 
           {/* Trade Finance */}
           <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={moneyExchange} alt="moneyExchange" className="pr-2" />
-            <p className="text-white">Trade Finance</p>
+            <p className="text-white text-xms md:text-sm">Trade Finance</p>
           </div>
         </div>
       </div>
