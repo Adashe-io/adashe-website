@@ -12,11 +12,11 @@ const Roadmap = () => {
         <div className="w-1/4 p-4 flex justify-center items-center writeStyle">
           <p className="writeStyleText">RoadMap</p>
         </div>
-        <div className="roadmap-container" ref={roadmapRef}>
+        <div className="w-2/4 roadmap-container justify-center" ref={roadmapRef}>
           <h2 className="text-xl text-[#203475] mb-4 text-center mt-8">
             RoadMap
           </h2>
-          <div className="flex flex-col items-center space-y-4 mt-8">
+          <div className="flex flex-col items-center space-y-4">
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
                 <div className="w-4 h-4 bg-[#3A2075] bg-opacity-50 rounded-full mx-auto mt-1.5">

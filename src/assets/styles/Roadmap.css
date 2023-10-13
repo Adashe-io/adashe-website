@@ -10,9 +10,10 @@ span {
 .writeStyleText {
     font-size: 5rem;
     font-weight: bold;
-    opacity: 0.4;
+    opacity: 0.2;
     letter-spacing: 12px;
     color: #203475;
+    margin-right: 220px;
 }
 
 @keyframes typing {
