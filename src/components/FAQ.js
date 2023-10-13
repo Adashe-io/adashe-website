@@ -24,7 +24,7 @@ const FAQItem = ({ question, answer }) => {
       </button>
       {isOpen && (
         <div className="p-4 mb-2 mt-2 bg-[#3A20756B]">
-           <p className="text-lg text-gray-800 font-bold">{question}</p>
+          <p className="text-lg text-gray-800 font-bold">{question}</p>
           <p className="text-ssm text-gray-700 mt-2">{answer}</p>
         </div>
       )}

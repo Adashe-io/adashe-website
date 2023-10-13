@@ -100,7 +100,10 @@ const Partners = () => {
             </div>
           </div>
         </div>
-        <p className="underline text-center text-gray-100 mt-4">More Partners</p>
+        <button className="text-gray-200 border-b-4 border border-gray-100 rounded-lg py-2 px-4 mx-auto block mt-2">
+          More Partner
+        </button>
+
         <div className="mt-3">.</div>
       </div>
     </div>
