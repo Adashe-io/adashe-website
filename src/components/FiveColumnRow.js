@@ -9,7 +9,7 @@ const FiveColumnRow = () => {
     <div className="container mx-auto mt-16" id='SERVICE'>
       <div className="flex flex-wrap justify-center md:justify-between">
         <div className="w-full md:w-1/5 p-4 md:p-2 text-center">
-          <p className='text-xxl font-semibold text-[#3A2075]'>Smart Contracts</p>
+          <p className='text-xxl md:text-xl text-[#3A2075]'>Smart Contracts</p>
         </div>
         <div className="w-1/1 md:w-1/5 p-4 md:p-2 text-center">
           <div className="bg-[#3A2075] rounded-full sm:w-16 sm:h-16 w-12 h-12 mx-auto mb-2 flex justify-center items-center borderColor">

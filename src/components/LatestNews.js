@@ -39,10 +39,19 @@ const LatestNews = () => {
     <div className="py-8">
       <div className="container mx-auto rounded-lg custom-gradient">
         <div className="flex flex-col md:flex-row">
+          <h2 className="text-xl font-semibold text-gray-100 mb-8 mt-6 text-center newHead">
+            Latest News
+          </h2>
+          <div className="w-full md:w-1/2 p-4 flex justify-center items-center">
+            <div className="rounded-lg p-4">
+              <img
+                src={currentArticle.imageUrl}
+                alt="News"
+                className="w-full h-full rounded-lg mx-auto"
+              />
+            </div>
+          </div>
           <div className="w-full md:w-1/2 p-4">
-            <h2 className="text-xl font-semibold text-gray-100 mb-4 text-center newHead">
-              Latest News
-            </h2>
             <div className="rounded-lg p-4">
               <h3 className="text-2xl font-semibold mb-4 text-gray-200">
                 {currentArticle.title}
@@ -70,15 +79,6 @@ const LatestNews = () => {
               >
                 <img src={next} alt="Next Icon" />
               </button>
-            </div>
-          </div>
-          <div className="w-full md:w-1/2 p-4 flex justify-center items-center">
-            <div className="rounded-lg p-4">
-              <img
-                src={currentArticle.imageUrl}
-                alt="News"
-                className="w-full h-full rounded-lg mx-auto"
-              />
             </div>
           </div>
         </div>

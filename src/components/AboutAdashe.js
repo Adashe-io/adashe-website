@@ -68,7 +68,7 @@ const AboutAdashe = () => {
               individuals, at no platform fees.{" "}
             </p>
           </div>
-          <div className="flex">
+          <div className="flex justify-center items-center md:justify-start md:text-left">
             <button className="border border-[#203475] text-[#203475] rounded-md px-4 py-1 mb-4 button-firstTwo">
               <div className="flex items-center">
                 {" "}

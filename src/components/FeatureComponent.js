@@ -26,8 +26,8 @@ const FeatureComponent = () => {
           </span>
         </p>
       </div>
-      <div className="p-4 rounded-lg mt-">
-        <div className="md:flex md:flex-row md:justify-center grid grid-cols-2 gap-2 py-5 px-2 custom-gradient featureComponentContainer">
+      <div className="p-4 mt-">
+        <div className="md:flex md:flex-row md:justify-center grid grid-cols-2 gap-2 py-5 px-2 rounded-lg custom-gradient featureComponentContainer">
           {/* Data */}
           <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center mb-4 projectAdashe">
             <img src={databaseLogo} alt="databaseLogo" className="pr-2" />

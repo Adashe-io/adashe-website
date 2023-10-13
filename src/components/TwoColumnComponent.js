@@ -1,5 +1,5 @@
 import React from "react";
-import Rectangle from "../assets/images/Rectangle-1.png";
+import Rectangle from "../assets/images/Group92.png";
 
 const TwoColumnComponent = () => {
   return (
@@ -32,7 +32,7 @@ const TwoColumnComponent = () => {
         <img
           src={Rectangle}
           alt="rectangle"
-          className="w-2/3 h-auto md:h-64 rounded-md mx-auto"
+          className="md:w-2/3 h-auto md:h-64 md:rounded-2xl mx-auto"
         />
       </div>
     </div>
