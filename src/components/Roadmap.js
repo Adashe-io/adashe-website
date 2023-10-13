@@ -1,32 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import "../assets/styles/Roadmap.css";
 import Verified from "./Verified";
 
 const Roadmap = () => {
   const roadmapRef = useRef(null);
 
-  useEffect(() => {
-    const roadmapElement = roadmapRef.current;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            roadmapElement.classList.add("animate-fade-in");
-          } else {
-            roadmapElement.classList.remove("animate-fade-in");
-          }
-        });
-      },
-      {
-        threshold: 0.2,
-      }
-    );
-    observer.observe(roadmapElement);
-    return () => {
-      observer.unobserve(roadmapElement);
-    };
-  }, []);
 
   return (
     <>
@@ -38,7 +16,7 @@ const Roadmap = () => {
           <h2 className="text-xl text-[#203475] mb-4 text-center mt-8">
             RoadMap
           </h2>
-          <div className="flex flex-col items-center space-y-4 mt-8 animate-fade-in">
+          <div className="flex flex-col items-center space-y-4 mt-8">
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
                 <div className="w-4 h-4 bg-[#3A2075] bg-opacity-50 rounded-full mx-auto mt-1.5">
